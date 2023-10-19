@@ -1,5 +1,11 @@
 function somar(n1, n2)
 {
+    if (n1 > 1)
+    {
+        n1 ++;
+        n1 --;
+        return n1 + n2;
+    }
     return n1 + n2;
 }
 

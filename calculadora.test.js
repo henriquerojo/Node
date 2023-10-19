@@ -20,3 +20,8 @@ test('Dividir 1 / 0.5 é igual a 2', () =>
   expect(calculadora.dividir(1, 0.5)).toBe(2);
 }
 );
+test('Testando número maior que 1 na função Somar', () => 
+{
+  expect(calculadora.somar(2, 0)).toBe(2);
+}
+);
